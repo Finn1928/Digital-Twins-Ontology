@@ -40,10 +40,40 @@
         <Class IRI="#Twinning_Rate"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Computer_Hardware"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#x_is_counterpart_material_entity_y"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#x_is_counterpart_process_y"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Honda_Civic_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Temperature_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Temperature_1_Increase_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sensor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Synchronizing_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Signal_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transmit_Process_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computer_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vehicle_Twin_1"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Digital_Replica"/>
@@ -81,6 +111,46 @@
         <Class IRI="#Twinning_Rate"/>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/RatioMeasurementInformationContentEntity"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computer_Hardware"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationBearingArtifact"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#http://www.ontologyrepository.com/CommonCoreOntologies/GroundVehicle"/>
+        <NamedIndividual IRI="#Honda_Civic_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#http://www.ontologyrepository.com/CommonCoreOntologies/Temperature"/>
+        <NamedIndividual IRI="#Temperature_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfQuality"/>
+        <NamedIndividual IRI="#Temperature_1_Increase_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#http://www.ontologyrepository.com/CommonCoreOntologies/Artifact"/>
+        <NamedIndividual IRI="#Sensor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#http://www.ontologyrepository.com/CommonCoreOntologies/Change"/>
+        <NamedIndividual IRI="#Synchronization_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="#Signal_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <NamedIndividual IRI="#Transmit_Process_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Computer_Hardware"/>
+        <NamedIndividual IRI="#Computer_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Digital_Twin_Instance"/>
+        <NamedIndividual IRI="#Vehicle_Twin_1"/>
+    </ClassAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#x_is_counterpart_material_entity_y"/>
         <Class IRI="#Digital_Twin_Instance"/>
@@ -176,6 +246,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Synchronizing_Process</IRI>
         <Literal>Synchronizing Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Computer_Hardware</IRI>
+        <Literal>Computer Hardware</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
