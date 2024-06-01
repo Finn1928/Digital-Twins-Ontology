@@ -235,7 +235,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
         <IRI>#Digital_Twin</IRI>
-        <Literal>An information content entity that represents an entity relative to some granularity and is designed to mirror updates of the entity and send data to it or that prescribes relative to some granularity and is designed to model an arrangement of classes and relations to mirror updates of some entity and send data to it.</Literal>
+        <Literal>An information content entity that is either designed to represent updates of and send updates to an entity relative to some granularity or is designed to prescribe a model for an arrangement of classes and relations to represent such an entity.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -255,7 +255,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
         <IRI>#Digital_Twin_Instance_Lifecycle</IRI>
-        <Literal>A process that consists of all and only processes in which either 1) a digital twin instance and the material entity it represents participate or 2) a digital twin instance participates and the process it represents is proper process part of.</Literal>
+        <Literal>A process that consists of all and only processes in which either 1) a digital twin instance and the material entity it represents participate or 2) a digital twin instance participates and the process it represents is a proper process part.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
