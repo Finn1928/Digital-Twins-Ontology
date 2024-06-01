@@ -173,6 +173,42 @@
         <Class IRI="#Twinning_Rate"/>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/RatioMeasurementInformationContentEntity"/>
     </SubClassOf>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000197"/>
+        <NamedIndividual IRI="#Temperature_1"/>
+        <NamedIndividual IRI="#Honda_Civic_1"/>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
+        <NamedIndividual IRI="#Temperature_1"/>
+        <NamedIndividual IRI="#Temperature_1_Increase_1"/>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
+        <NamedIndividual IRI="#Sensor_1"/>
+        <NamedIndividual IRI="#Transmit_Process_1"/>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http:www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
+        <NamedIndividual IRI="#Transmit_Process_1"/>
+        <NamedIndividual IRI="#Signal_1"/>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http:www.ontologyrepository.com/CommonCoreOntologies/is_input_of"/>
+        <NamedIndividual IRI="#Signal_1"/>
+        <NamedIndividual IRI="#Synchronizing_1"/>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
+        <NamedIndividual IRI="#Computer_1"/>
+        <Class IRI="http:www.ontologyrepository.com/CommonCoreOntologies/Change"/>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
+        <NamedIndividual IRI="#Vehicle_Twin_1"/>
+        <NamedIndividual IRI="#Synchronizing_1"/>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http:www.ontologyrepository.com/CommonCoreOntologies/receives"/>
+        <NamedIndividual IRI="#Vehicle_Twin_1"/>
+        <NamedIndividual IRI="#Signal_1"/>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000084"/>
+        <NamedIndividual IRI="#Vehicle_Twin_1"/>
+        <NamedIndividual IRI="#Computer_1"/>
     <ClassAssertion>
         <Class IRI="#Computer_Hardware"/>
         <NamedIndividual IRI="#Computer_1"/>
