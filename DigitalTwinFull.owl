@@ -201,7 +201,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
         <NamedIndividual IRI="#Computer_1"/>
-        <Class IRI="#Change"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/Change"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
