@@ -115,6 +115,24 @@
     <Declaration>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfQuality"/>
     </Declaration>
+    <Declaration>
+        <Object Property IRI="http://purl.obolibrary.org/obo/BFO_0000197"/>
+    </Declaration>
+    <Declaration>
+        <Object Property IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
+    </Declaration>
+    <Declaration>
+        <Object Property IRI="http:www.ontologyrepository.com/CommonCoreOntologies/is_input_of"/>
+    </Declaration>
+    <Declaration>
+        <Object Property IRI="http:www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
+    </Declaration>
+    <Declaration>
+        <Object Property IRI="http:www.ontologyrepository.com/CommonCoreOntologies/receives"/>
+    </Declaration>
+    <Declaration>
+        <Object Property IRI="http://purl.obolibrary.org/obo/BFO_0000084"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#Computer_Hardware"/>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationBearingArtifact"/>
