@@ -258,7 +258,7 @@
         <NamedIndividual IRI="#Vehicle_Twin_1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Change"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/Change"/>
         <NamedIndividual IRI="#Change_1"/>
     </ClassAssertion>
     <ObjectPropertyDomain>
