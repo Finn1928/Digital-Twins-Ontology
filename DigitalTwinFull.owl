@@ -77,6 +77,9 @@
         <NamedIndividual IRI="#Vehicle_Twin_1"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Change_1"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/Temperature"/>
     </Declaration>
     <Declaration>
@@ -213,6 +216,11 @@
         <NamedIndividual IRI="#Vehicle_Twin_1"/>
         <NamedIndividual IRI="#Computer_1"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
+        <NamedIndividual IRI="#Computer_1"/>
+        <NamedIndividual IRI="#Change_1"/>
+    </ObjectPropertyAssertion>
     <ClassAssertion>
         <Class IRI="#Computer_Hardware"/>
         <NamedIndividual IRI="#Computer_1"/>
@@ -248,6 +256,10 @@
     <ClassAssertion>
         <Class IRI="#Digital_Twin_Instance"/>
         <NamedIndividual IRI="#Vehicle_Twin_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Change"/>
+        <NamedIndividual IRI="#Change_1"/>
     </ClassAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#x_is_counterpart_material_entity_y"/>
