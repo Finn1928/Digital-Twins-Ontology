@@ -133,7 +133,7 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#http://www.ontologyrepository.com/CommonCoreOntologies/Change"/>
-        <NamedIndividual IRI="#Synchronization_1"/>
+        <NamedIndividual IRI="#Synchronizing_1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#http://purl.obolibrary.org/obo/BFO_0000002"/>
