@@ -80,6 +80,24 @@
         <NamedIndividual IRI="#Change_1"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Vehicle_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Steering_Wheel_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Engine_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Front_Window_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Piston_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vehicle_2"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/Temperature"/>
     </Declaration>
     <Declaration>
@@ -135,6 +153,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000084"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000176"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Computer_Hardware"/>
@@ -220,6 +241,26 @@
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
         <NamedIndividual IRI="#Computer_1"/>
         <NamedIndividual IRI="#Change_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000176"/>
+        <NamedIndividual IRI="#Steering_Wheel_1"/>
+        <NamedIndividual IRI="#Vehicle_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000176"/>
+        <NamedIndividual IRI="#Engine_1"/>
+        <NamedIndividual IRI="#Vehicle_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000176"/>
+        <NamedIndividual IRI="#Front_Window_1"/>
+        <NamedIndividual IRI="#Vehicle_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000176"/>
+        <NamedIndividual IRI="#Piston_1"/>
+        <NamedIndividual IRI="#Engine_1"/>
     </ObjectPropertyAssertion>
     <ClassAssertion>
         <Class IRI="#Computer_Hardware"/>
