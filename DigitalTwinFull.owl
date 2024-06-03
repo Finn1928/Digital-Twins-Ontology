@@ -68,10 +68,13 @@
         <Class IRI="#Twinning_Rate"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#x_is_counterpart_material_entity_y"/>
+        <ObjectProperty IRI="#is_counterpart_material_entity"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#x_is_counterpart_process_y"/>
+        <ObjectProperty IRI="#is_counterpart_process"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#senses"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Computer_1"/>
@@ -250,6 +253,11 @@
         <NamedIndividual IRI="#Transmit_Process_1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#senses"/>
+        <NamedIndividual IRI="#Sensor_1"/>
+        <NamedIndividual IRI="#Temperature_1_Increase_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="http:www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
         <NamedIndividual IRI="#Transmit_Process_1"/>
         <NamedIndividual IRI="#Signal_1"/>
@@ -340,19 +348,19 @@
         <NamedIndividual IRI="#Change_1"/>
     </ClassAssertion>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#x_is_counterpart_material_entity_y"/>
+        <ObjectProperty IRI="#is_counterpart_material_entity"/>
         <Class IRI="#Digital_Twin_Instance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#x_is_counterpart_process_y"/>
+        <ObjectProperty IRI="#is_counterpart_process"/>
         <Class IRI="#Digital_Twin_Instance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#x_is_counterpart_material_entity_y"/>
+        <ObjectProperty IRI="#is_counterpart_material_entity"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#x_is_counterpart_process_y"/>
+        <ObjectProperty IRI="#is_counterpart_process"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
@@ -452,23 +460,23 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
-        <IRI>#x_is_counterpart_material_entity_y</IRI>
+        <IRI>#is_counterpart_material_entity</IRI>
         <Literal>x represents y, x is a digital twin instance, y is a material entity, and x and y participate in a synchronizing process.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#x_is_counterpart_material_entity_y</IRI>
-        <Literal>x is counterpart material entity y</Literal>
+        <IRI>#is_counterpart_material_entity</IRI>
+        <Literal>is counterpart material entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
-        <IRI>#x_is_counterpart_process_y</IRI>
+        <IRI>#is_counterpart_process</IRI>
         <Literal>x represents y, x is a digital twin instance, y is a process, and x participates in a synchronizing process that overlaps with y.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#x_is_counterpart_process_y</IRI>
-        <Literal>x is counterpart process y</Literal>
+        <IRI>#is_counterpart_process</IRI>
+        <Literal>is counterpart process</Literal>
     </AnnotationAssertion>
 </Ontology>
 
