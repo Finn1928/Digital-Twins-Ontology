@@ -263,6 +263,10 @@
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/Temperature"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/Change"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000197"/>
         <NamedIndividual IRI="#Temperature_1"/>
