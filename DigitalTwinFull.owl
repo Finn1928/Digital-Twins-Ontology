@@ -513,6 +513,11 @@
         <IRI>http://purl.obolibrary.org/obo/BFO_0000197</IRI>
         <Literal>inheres in</Literal>
     </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/BFO_0000040</IRI>
+        <Literal>material entity</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
