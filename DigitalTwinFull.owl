@@ -227,6 +227,42 @@
         <Class IRI="#Twinning_Rate"/>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/RatioMeasurementInformationContentEntity"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/Artifact"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GroundVehicle"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfQuality"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/Change"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationBearingArtifact"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/RatioMeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/Temperature"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    </SubClassOf>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000197"/>
         <NamedIndividual IRI="#Temperature_1"/>
@@ -517,6 +553,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/BFO_0000040</IRI>
         <Literal>material entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/Artifact</IRI>
+        <Literal>Material Artifact</Literal>
     </AnnotationAssertion>
 </Ontology>
 
