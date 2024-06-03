@@ -487,6 +487,7 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#BFO_0000015</IRI>
         <Literal>process</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#BFO_0000015</IRI>
