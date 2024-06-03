@@ -478,6 +478,40 @@
         <IRI>#is_counterpart_process</IRI>
         <Literal>is counterpart process</Literal>
     </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BFO_0000002</IRI>
+        <Literal>continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BFO_0000015</IRI>
+        <Literal>process</Literal>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BFO_0000015</IRI>
+        <Literal>material entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BFO_0000056</IRI>
+        <Literal>participates in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BFO_0000084</IRI>
+        <Literal>generically depends on</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BFO_0000176</IRI>
+        <Literal>continuant part of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BFO_0000197</IRI>
+        <Literal>inheres in</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
